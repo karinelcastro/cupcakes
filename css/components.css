@@ -1,0 +1,30 @@
+.btn {
+  margin-top: 15px;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--light);
+}
+
+.card {
+  background: var(--light);
+  border-radius: var(--radius);
+  padding: var(--spacing);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+.hero {
+  padding: 60px 0;
+  text-align: center;
+  background: var(--secondary);
+}
