@@ -29,3 +29,53 @@
 .section {
   padding: 60px 0;
 }
+.hero-layout {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.about-layout {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: space-evenly;
+}
+
+.about-image {
+  flex: 0 0 320px;
+ 
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: var(--radius);
+  height: 400px;
+}
+
+.about-content {
+  max-width: 500px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .hero-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    max-height: 300px;
+  }
+
+  .about-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    flex: none;
+    width: 100%;
+    max-width: 300px;
+  }
+}
