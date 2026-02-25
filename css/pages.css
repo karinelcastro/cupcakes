@@ -14,3 +14,46 @@
   font-weight: bold;
   margin-bottom: 16px;
 }
+
+
+/* ===== Carrinho ===== */
+
+.cart-layout {
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Item */
+.cart-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-price {
+  font-weight: bold;
+}
+
+/* Resumo */
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart-total {
+  font-size: 1.1rem;
+}
